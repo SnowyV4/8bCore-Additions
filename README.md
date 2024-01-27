@@ -6,5 +6,5 @@ To change the message that is sent, go into the java file and change it yourself
 ------done------------
 * Item Frame invisible
 * death messages
-  to do
+-------to-do-----------
 * chunk tile limiter
