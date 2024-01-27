@@ -9,8 +9,12 @@ public class DeathMessages implements Listener {
     public DeathMessages(Main plugin) {this.plugin = plugin;}
     @EventHandler
     public void OnPlayerDeath(PlayerDeathEvent Event) {
+        String Cause = Event.getPlayer().getKiller().getDisplayName();
         String Name = Event.getPlayer().getDisplayName();
-        Event.setDeathMessage(Name + "This player died to the causes of");
+        if (Cause != null) {
+            Event.setDeathMessage(Name + "This player died to the causes of" + Cause);
+        } else { Event.setDeathMessage(Name + "This player died."); }
+
     }
 
 }
