@@ -5,4 +5,4 @@ To change the message that is sent, go into the java file and change it yourself
 
 * Item Frame invisible
 * death messages
-* chunk tile limiter currently no finished
+* chunk tile limiter # currently not finished
