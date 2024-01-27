@@ -1,2 +1,6 @@
-DeathMessage:
-- %player% Died due to blood lost.
+Core-Additions:
+  InvisibleItemFrames: true
+  CustomDeathMessages: true
+  ChunkCheck: false # not yet working!
+  Death-message-mob: <victim> died to a <killer>
+  Death-message-player: <victim> died to <killer>
